@@ -163,7 +163,7 @@ canada.BorderColor3 = Color3.fromRGB(0, 53, 11)
 canada.Position = UDim2.new(-0.224000007, 0, -1.5, 0)
 canada.Size = UDim2.new(0, 99, 0, 39)
 canada.Font = Enum.Font.SourceSans
-canada.Text = "Canada Spam"
+canada.Text = "TNCK Spam"
 canada.TextColor3 = Color3.fromRGB(255, 255, 255)
 canada.TextScaled = true
 canada.TextSize = 14.000
@@ -1136,15 +1136,15 @@ local function MGCF_fake_script() -- canada.Script
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Lighting:ClearAllChildren()
 		local s = Instance.new("Sky",game.Lighting)
-		s.SkyboxBk = "rbxassetid://6924369153"
-		s.SkyboxFt = "rbxassetid://6924369153"
-		s.SkyboxLf = "rbxassetid://6924369153"
-		s.SkyboxRt = "rbxassetid://6924369153"
-		s.SkyboxUp = "rbxassetid://6924369153"
-		s.SkyboxDn = "rbxassetid://6924369153"
-		s.StarCount = "rbxassetid://6924369153"
-		s.SunTextureId = "rbxassetid://6924369153"
-		s.MoonTextureId = "rbxassetid://6924369153"
+		s.SkyboxBk = "rbxassetid://17364212597"
+		s.SkyboxFt = "rbxassetid://17364212597"
+		s.SkyboxLf = "rbxassetid://17364212597"
+		s.SkyboxRt = "rbxassetid://17364212597"
+		s.SkyboxUp = "rbxassetid://17364212597"
+		s.SkyboxDn = "rbxassetid://17364212597"
+		s.StarCount = "rbxassetid://17364212597"
+		s.SunTextureId = "rbxassetid://17364212597"
+		s.MoonTextureId = "rbxassetid://17364212597"
 	end)
 	
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1157,12 +1157,12 @@ local function MGCF_fake_script() -- canada.Script
 				local F = Instance.new("Decal", v)
 				local Fi = Instance.new("Decal", v)
 				local S = Instance.new("Decal", v)
-				O.Texture = "rbxassetid://6924369153"
-				T.Texture = "rbxassetid://6924369153"
-				Th.Texture = "rbxassetid://6924369153"
-				F.Texture = "rbxassetid://6924369153"
-				Fi.Texture = "rbxassetid://6924369153"
-				S.Texture = "rbxassetid://6924369153"
+				O.Texture = "rbxassetid://17364212597"
+				T.Texture = "rbxassetid://17364212597"
+				Th.Texture = "rbxassetid://17364212597"
+				F.Texture = "rbxassetid://17364212597"
+				Fi.Texture = "rbxassetid://17364212597"
+				S.Texture = "rbxassetid://17364212597"
 				O.Face = "Front"
 				T.Face = "Back"
 				Th.Face = "Right"
@@ -1177,7 +1177,7 @@ local function MGCF_fake_script() -- canada.Script
 		for i,v in pairs(workspace:GetDescendants()) do
 			if v:IsA("BasePart") then
 				local p = Instance.new("ParticleEmitter",v)
-				p.Texture = "rbxassetid://6924369153"
+				p.Texture = "rbxassetid://17364212597"
 			end
 		end
 	end)
