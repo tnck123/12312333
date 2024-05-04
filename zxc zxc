@@ -156,7 +156,7 @@ lead.TextScaled = true
 lead.TextSize = 14.000
 lead.TextWrapped = true
 
-.Name = "canada"
+canada.Name = "canada"
 canada.Parent = TextLabel_4
 canada.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 canada.BorderColor3 = Color3.fromRGB(0, 53, 11)
