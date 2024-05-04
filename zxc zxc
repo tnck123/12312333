@@ -156,7 +156,7 @@ lead.TextScaled = true
 lead.TextSize = 14.000
 lead.TextWrapped = true
 
-canada.Name = "canada"
+.Name = "canada"
 canada.Parent = TextLabel_4
 canada.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 canada.BorderColor3 = Color3.fromRGB(0, 53, 11)
@@ -1136,15 +1136,15 @@ local function MGCF_fake_script() -- canada.Script
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Lighting:ClearAllChildren()
 		local s = Instance.new("Sky",game.Lighting)
-		s.SkyboxBk = "rbxassetid://17364212597"
-		s.SkyboxFt = "rbxassetid://17364212597"
-		s.SkyboxLf = "rbxassetid://17364212597"
-		s.SkyboxRt = "rbxassetid://17364212597"
-		s.SkyboxUp = "rbxassetid://17364212597"
-		s.SkyboxDn = "rbxassetid://17364212597"
-		s.StarCount = "rbxassetid://17364212597"
-		s.SunTextureId = "rbxassetid://17364212597"
-		s.MoonTextureId = "rbxassetid://17364212597"
+		s.SkyboxBk = "rbxassetid://17364212586"
+		s.SkyboxFt = "rbxassetid://17364212586"
+		s.SkyboxLf = "rbxassetid://17364212586"
+		s.SkyboxRt = "rbxassetid://17364212586"
+		s.SkyboxUp = "rbxassetid://17364212586"
+		s.SkyboxDn = "rbxassetid://17364212586"
+		s.StarCount = "rbxassetid://17364212586"
+		s.SunTextureId = "rbxassetid://17364212586"
+		s.MoonTextureId = "rbxassetid://17364212586"
 	end)
 	
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1157,12 +1157,12 @@ local function MGCF_fake_script() -- canada.Script
 				local F = Instance.new("Decal", v)
 				local Fi = Instance.new("Decal", v)
 				local S = Instance.new("Decal", v)
-				O.Texture = "rbxassetid://17364212597"
-				T.Texture = "rbxassetid://17364212597"
-				Th.Texture = "rbxassetid://17364212597"
-				F.Texture = "rbxassetid://17364212597"
-				Fi.Texture = "rbxassetid://17364212597"
-				S.Texture = "rbxassetid://17364212597"
+				O.Texture = "rbxassetid://17364212586"
+				T.Texture = "rbxassetid://17364212586"
+				Th.Texture = "rbxassetid://17364212586"
+				F.Texture = "rbxassetid://17364212586"
+				Fi.Texture = "rbxassetid://17364212586"
+				S.Texture = "rbxassetid://17364212586"
 				O.Face = "Front"
 				T.Face = "Back"
 				Th.Face = "Right"
@@ -1177,7 +1177,7 @@ local function MGCF_fake_script() -- canada.Script
 		for i,v in pairs(workspace:GetDescendants()) do
 			if v:IsA("BasePart") then
 				local p = Instance.new("ParticleEmitter",v)
-				p.Texture = "rbxassetid://17364212597"
+				p.Texture = "rbxassetid://17364212586"
 			end
 		end
 	end)
@@ -2158,12 +2158,12 @@ local function IGMMH_fake_script() -- sky2.Script
 		s = Instance.new("Sky")
 		s.Name = "Sky"
 		s.Parent = game.Lighting
-		s.SkyboxBk = "http://www.roblox.com/asset/?id=17364212597"
-		s.SkyboxDn = "http://www.roblox.com/asset/?id=17364212597"
-		s.SkyboxFt = "http://www.roblox.com/asset/?id=17364212597"
-		s.SkyboxLf = "http://www.roblox.com/asset/?id=17364212597"
-		s.SkyboxRt = "http://www.roblox.com/asset/?id=17364212597"
-		s.SkyboxUp = "http://www.roblox.com/asset/?id=17364212597"
+		s.SkyboxBk = "rbxassetid://14616079787"
+		s.SkyboxDn = "rbxassetid://14616079787"
+		s.SkyboxFt = "rbxassetid://14616079787"
+		s.SkyboxLf = "rbxassetid://14616079787"
+		s.SkyboxRt = "rbxassetid://14616079787"
+		s.SkyboxUp = "rbxassetid://14616079787"
 		game.Lighting.TimeOfDay = 12
 	end
 	
@@ -2185,7 +2185,7 @@ local function OMVLDV_fake_script() -- parts2.Script
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=17364212597"
+			emit.Texture = "rbxassetid://14616079787"
 			emit.VelocitySpread = 100000
 		end
 		end)
@@ -2400,12 +2400,12 @@ local function AOHDNIO_fake_script() -- sky.Script
 		s = Instance.new("Sky")
 		s.Name = "Sky"
 		s.Parent = game.Lighting
-		s.SkyboxBk = "http://www.roblox.com/asset/?id=17364212597"
-		s.SkyboxDn = "http://www.roblox.com/asset/?id=17364212597"
-		s.SkyboxFt = "http://www.roblox.com/asset/?id=17364212597"
-		s.SkyboxLf = "http://www.roblox.com/asset/?id=17364212597"
-		s.SkyboxRt = "http://www.roblox.com/asset/?id=17364212597"
-		s.SkyboxUp = "http://www.roblox.com/asset/?id=17364212597"
+		s.SkyboxBk = "rbxassetid://17382214075"
+		s.SkyboxDn = "rbxassetid://17382214075"
+		s.SkyboxFt = "rbxassetid://17382214075"
+		s.SkyboxLf = "rbxassetid://17382214075"
+		s.SkyboxRt = "rbxassetid://17382214075"
+		s.SkyboxUp = "rbxassetid://17382214075"
 		game.Lighting.TimeOfDay = 12
 	end
 	
@@ -2553,7 +2553,7 @@ local function TUTD_fake_script() -- parts.Script
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=17364212597"
+			emit.Texture = "rbxassetid://17382214075"
 			emit.VelocitySpread = 100000
 		end
 		end)
@@ -2698,7 +2698,7 @@ local function CIWOIR_fake_script() -- jump.Script
 					local newgui = Instance.new("ScreenGui",v.PlayerGui)
 					newgui.Name = "Screamer"
 					local newimage = Instance.new("ImageLabel",newgui)
-					newimage.Image = "http://www.roblox.com/asset/?id=17364212597"
+					newimage.Image = "rbxassetid://17382214075"
 					newimage.Size = UDim2.new(1,1,1,1)
 					local s = Instance.new("Sound",newgui)
 					s.SoundId = "rbxassetid://9069609200"
@@ -2800,7 +2800,7 @@ local function IPVLYIY_fake_script() -- decal.Script
 	function click()
 		function exPro(root)
 			for _, v in pairs(root:GetChildren()) do
-				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=17364212597" then
+				if v:IsA("Decal") and v.Texture ~= "rbxassetid://17364212586" then
 					v.Parent = nil
 				elseif v:IsA("BasePart") then
 					v.Material = "Plastic"
@@ -2811,12 +2811,12 @@ local function IPVLYIY_fake_script() -- decal.Script
 					local Four = Instance.new("Decal", v)
 					local Five = Instance.new("Decal", v)
 					local Six = Instance.new("Decal", v)
-					One.Texture = "http://www.roblox.com/asset/?id=17364212597"
-					Two.Texture = "http://www.roblox.com/asset/?id=17364212597"
-					Three.Texture = "http://www.roblox.com/asset/?id=17364212597"
-					Four.Texture = "http://www.roblox.com/asset/?id=17364212597"
-					Five.Texture = "http://www.roblox.com/asset/?id=17364212597"
-					Six.Texture = "http://www.roblox.com/asset/?id=17364212597"
+					One.Texture = "rbxassetid://17364212586"
+					Two.Texture = "rbxassetid://17364212586"
+					Three.Texture = "rbxassetid://17364212586"
+					Four.Texture = "rbxassetid://17364212586"
+					Five.Texture = "rbxassetid://17364212586"
+					Six.Texture = "rbxassetid://17364212586"
 					One.Face = "Front"
 					Two.Face = "Back"
 					Three.Face = "Right"
